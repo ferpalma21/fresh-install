@@ -69,6 +69,9 @@ git clone git@github.com:frohoff/ysoserial.git ~/Tools/ysoserial
 git clone git@github.com:DominicBreuker/pspy.git ~/Tools/pspy
 sudo apt install sqlmap -y
 git clone git@github.com:snyk/zip-slip-vulnerability.git ~/Tools/zip-slip-vulnerability
+sudo apt install evil-winrm
+git clone https://github.com/fortra/impacket.git
+sudo snap install crackmapexec enum4linux impacket-scripts
 
 #osint packages
 git clone git@github.com:laramies/theHarvester.git ~/Tools/theHarvester
@@ -87,3 +90,10 @@ sudo apt install shred wipe secure-delete bleachbit -y
 
 #cracking packages
 sudo apt install hashcat -y
+
+#firewall
+sudo apt install ufw -y
+
+#antivirus packages
+sudo apt install chkrootkit -y
+
